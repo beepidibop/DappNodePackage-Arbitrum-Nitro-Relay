@@ -1,12 +1,10 @@
 {
   "name": "arbitrum-nitro-relay.public.dappnode.eth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Arbitrum Nitro Relay",
   "type": "service",
   "author": "Beepidibop",
-  "contributors": [
-    "Beepidibop (https://github.com/beepidibop)"
-  ],
+  "contributors": ["Beepidibop (https://github.com/beepidibop)"],
   "upstreamVersion": "v2.1.3-e815395",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
@@ -21,8 +19,8 @@
     }
   ],
   "links": {
-    "endpoint": "ws://arbitrum-nitro.public.dappnode:9642",
-    "homepage": "https://developer.offchainlabs.com/docs/Running_Nitro_Node"
+    "endpoint": "ws://arbitrum-nitro-relay.public.dappnode:9642",
+    "homepage": "https://docs.arbitrum.io/node-running/how-tos/running-a-feed-relay"
   },
   "bugs": {
     "url": "https://github.com/beepidibop/DappNodePackage-Arbitrum-Nitro-Relay/issues"

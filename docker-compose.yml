@@ -9,5 +9,5 @@ services:
       FEED_INPUT_URL: "wss://arb1.arbitrum.io/feed"
       FEED_OUTPUT_PORT: "9642"
       EXTRA_OPTS: ""
-    image: "sequencer-feed.arbitrum-nitro-relay.public.dappnode.eth:1.0.0"
+    image: "sequencer-feed.arbitrum-nitro-relay.public.dappnode.eth:1.0.1"
     restart: unless-stopped
